@@ -10,13 +10,14 @@ package store
 import (
 	"encoding/json"
 	"fmt"
-	"hraft_test/raftbadger"
 	"io"
 	"log"
 	"net"
 	"os"
 	"sync"
 	"time"
+
+	"github.com/aalda/hashicorp-raft-example/raftbadger"
 
 	"github.com/dgraph-io/badger"
 	"github.com/hashicorp/raft"

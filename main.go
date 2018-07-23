@@ -5,12 +5,13 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
-	"hraft_test/httpd"
-	"hraft_test/store"
 	"log"
 	"net/http"
 	"os"
 	"os/signal"
+
+	"github.com/aalda/hashicorp-raft-example/httpd"
+	"github.com/aalda/hashicorp-raft-example/store"
 )
 
 const (
